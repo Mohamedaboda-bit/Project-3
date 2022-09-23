@@ -9,8 +9,7 @@ jobs:
   build:
     docker:
       # the base image can run most needed actions with orbs
-      - image: "cimg/node:14.15"
-      - image: cibuilds/aws:1.16.1
+      - image: "cimg/base:stable"
     steps:
       # install node and checkout code
       - node/install:
