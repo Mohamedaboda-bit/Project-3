@@ -3,8 +3,8 @@ branch-defaults:
     environment: Project3-env
 environment-defaults:
   Project3-env:
-    branch: default
-    repository: reactnd-contacts-server
+    branch: null
+    repository: null
 global:
   application_name: project3
   default_ec2_keyname: null
