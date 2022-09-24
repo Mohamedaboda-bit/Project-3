@@ -1,12 +1,14 @@
 branch-defaults:
   default:
-    environment: Project3-env
+    environment: final-env
+deploy:
+  artifact: build.zip   
 environment-defaults:
-  Project3-env:
-    branch: default
-    repository: reactnd-contacts-server
+  final-env:
+    branch: null
+    repository: null
 global:
-  application_name: project3
+  application_name: projectok
   default_ec2_keyname: null
   default_platform: Node.js 16 running on 64bit Amazon Linux 2
   default_region: us-east-1
@@ -14,5 +16,6 @@ global:
   instance_profile: null
   platform_name: null
   platform_version: null
-  profile: 
+  profile: eb-cli
+  sc: null
   workspace_type: Application
