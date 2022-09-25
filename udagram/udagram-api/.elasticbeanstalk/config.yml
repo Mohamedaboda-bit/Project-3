@@ -1,6 +1,6 @@
 branch-defaults:
   default:
-    environment: final-env
+    environment: Project3-env
 deploy:
   artifact: build.zip  
 environment-defaults:
@@ -8,7 +8,7 @@ environment-defaults:
     branch: null
     repository: null
 global:
-  application_name: projectok
+  application_name: project3
   default_ec2_keyname: null
   default_platform: Node.js 16 running on 64bit Amazon Linux 2
   default_region: us-east-1
