@@ -1,6 +1,6 @@
 branch-defaults:
   default:
-    environment: Project3-env
+    environment: Project3env-env
 deploy:
   artifact: build.zip  
 environment-defaults:
