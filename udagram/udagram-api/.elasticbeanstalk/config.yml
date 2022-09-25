@@ -2,7 +2,7 @@ branch-defaults:
   default:
     environment: final-env
 deploy:
-  artifact: build.zip   
+  artifact: Archive.zip  
 environment-defaults:
   final-env:
     branch: null
